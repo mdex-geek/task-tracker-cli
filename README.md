@@ -1,13 +1,14 @@
-Task Tracker CLI
+Task Tracker CLI [https://roadmap.sh/projects/task-tracker]
 Task Tracker CLI is an application that helps you to manage your tasks efficiently.
 
 Installation
 First of all, make sure you have Dart installed. If you don't, go to Dart site and follow the steps listed there or you can install it also from Flutter site following the instructions for your OS.
 
 Once you've installed Dart, just clone this repo and go to the directory to run the .dart file in /bin directory.
-
+```
 $ cd task_tracker
 $ dart run bin/task_tracker_cli.dart
+```
 And that's it! You can use now the application.
 
 Usage
@@ -15,7 +16,7 @@ When you run the application, you'll see in the terminal the next prompt:
 
 task-cli 
 use any of these commands:
-
+```
 add
 list
 list todo
@@ -27,6 +28,7 @@ mark-done
 mark-in-progress
 exit
 add:
+```
 Adds a new task to the database. The name of the task must be in double quotes.
 
 task-cli add "Test task"
